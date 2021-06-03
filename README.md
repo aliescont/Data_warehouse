@@ -1,7 +1,7 @@
 
 # Summary 
 
-This project aims to build an ETL pipeline for a database in Redshift, using staging tables to load the data and then do some transformation to insert the corresponding data into the fact and dimension table, using a star schema, as follows
+This project was part of Cloud Data Warehouse course, it aims to build an ETL pipeline for a database in Redshift, using staging tables to load the data and then do some transformation to insert the corresponding data into the fact and dimension table, using a star schema, as follows
 
 ## Fact table
 Songplays table {songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent}
